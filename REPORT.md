@@ -1,33 +1,35 @@
 # BÁO CÁO BÀI LÀM
 
-## Thông Tin 
+## Thông Tin
 * **Họ và tên:** [Nhập họ tên của bạn vào đây]
 
 ---
 
 ## Nội Dung Bài Làm
 
+> Phần 3-5 là phần sàng lọc sơ bộ, ưu tiên cách suy nghĩ, cách chọn việc và cách phản ứng với tình huống hơn là kiến thức thuộc lòng.
+
 ### 🔹 Câu 0: Thư viện sử dụng
 > **Đề bài:** Giải thích những thư viện được sử dụng trong requirements.txt. <br>
 > **Lưu ý:** Nếu không dùng có thể bỏ qua
 
 **Câu trả lời:**
- - `Thư viện 1`: Lý do dùng
- - `Thư viện 2`: Lý do dùng
- - ...
+- `Thư viện 1`: Lý do dùng
+- `Thư viện 2`: Lý do dùng
+- ...
 
 ### 🔹 Câu 1: BASE CODE
-**1.1. Phân tích, giải thích độ phức tạp của thuật toán tìm kiếm theo tên** 
+**1.1. Phân tích, giải thích độ phức tạp của thuật toán tìm kiếm theo tên**
 
 **Câu trả lời:**
 > Trả lời tại đây
 
-**1.2. Những tên sau (VD: Hà br, Dova%#, Trung 777 Hòa,...) gặp vấn đề gì? Và hướng giải quyết vấn đề này là như thế nào? (không yêu cầu code)** 
+**1.2. Những tên sau (VD: Hà br, Dova%#, Trung 777 Hòa,...) gặp vấn đề gì? Và hướng giải quyết vấn đề này là như thế nào? (không yêu cầu code)**
 
 **Câu trả lời: (100 từ)**
 > Trả lời tại đây
 
-**1.3. Với câu 1.2, Liệu thực hiện hướng giải quyết trên đã giúp dữ liệu sạch 100% chưa? Nếu chưa thì phải làm sao để dữ liệu sạch hơn?**
+**1.3. Với câu 1.2, liệu thực hiện hướng giải quyết trên đã giúp dữ liệu sạch 100% chưa? Nếu chưa thì phải làm sao để dữ liệu sạch hơn?**
 
 **Câu trả lời: (100 từ)**
 > Trả lời tại đây
@@ -49,63 +51,75 @@
 **Câu trả lời: (100 từ)**
 > Trả lời tại đây
 
+### 🔹 Câu 3: DE CASE
+> Mục tiêu: xem tư duy dữ liệu, làm sạch, chuẩn hóa, kiểm tra chất lượng và tổ chức đầu ra.
 
-### 🔹 Câu 3: ĐỊNH HƯỚNG VAI TRÒ (SƠ BỘ)
-> Mục tiêu: không phải bắt ứng viên biết sâu, mà xem cách họ suy luận, tự đánh giá và phản ứng với một bài toán thật.
+Bạn nhận một gói dữ liệu gồm:
+- 1 file CSV có 200 dòng sản phẩm, trong đó có dòng trùng, thiếu giá, và tên sản phẩm không thống nhất.
+- 1 file text mô tả sản phẩm.
 
-**3.1. Nhìn vào 2 bài trên, bạn thấy mình nghiêng về hướng nào nhất trong 3 hướng `DE`, `AI`, `RAG`?**
-
-**Câu trả lời:**
-> Trả lời tại đây
-
-**3.2. Nếu chưa tự tin chọn hướng nào, hãy nói rõ phần nào khiến bạn phân vân nhất.**
+**3.1. Nếu bạn phải bàn giao dữ liệu này cho team khác dùng tiếp, 4 bước đầu tiên bạn sẽ làm là gì?**
 
 **Câu trả lời:**
 > Trả lời tại đây
 
-**3.3. Bạn sẽ làm gì trong 2 tuần đầu để kiểm tra xem mình có hợp với hướng đó không?**
+**3.2. Trong dữ liệu này, 3 loại lỗi nào bạn sẽ ưu tiên xử lý trước? Vì sao?**
 
 **Câu trả lời:**
 > Trả lời tại đây
 
-### 🔹 Câu 4: TÌNH HUỐNG THỰC TẾ
-> Mục tiêu: xem tư duy ưu tiên, khả năng nhìn ra rủi ro và cách bắt đầu công việc.
-
-Bạn được giao một bài toán nội bộ: có dữ liệu rời rạc từ file, bảng tính, tài liệu mô tả, và một số câu hỏi người dùng thường gặp. Team muốn làm một demo nhỏ để trả lời câu hỏi nội bộ, nhưng thời gian chỉ có 1-2 tuần.
-
-**4.1. Nếu bạn là người đầu tiên nhận việc này, bạn sẽ bắt đầu từ đâu?**
+**3.3. Nếu chỉ được giữ lại 1 phiên bản dữ liệu sạch trong ngày đầu, bạn sẽ giữ những trường nào và bỏ những trường nào?**
 
 **Câu trả lời:**
 > Trả lời tại đây
 
-**4.2. Bạn sẽ ưu tiên làm rõ 3 điều gì trước khi code?**
+### 🔹 Câu 4: AI CASE
+> Mục tiêu: xem tư duy mô hình, chọn baseline, đánh giá và nhìn ra lỗi sai.
+
+Team đưa cho bạn:
+- 1 tập dữ liệu nhỏ gồm câu hỏi và câu trả lời mẫu.
+- 3 ví dụ model trả lời sai.
+- 1 yêu cầu: làm một demo nhỏ trả lời đúng hơn ở mức cơ bản nhất.
+
+**4.1. Nếu là người bắt đầu, bạn sẽ chọn baseline nào trước để thử nhanh?**
 
 **Câu trả lời:**
 > Trả lời tại đây
 
-**4.3. Theo bạn, rủi ro lớn nhất của bài toán này là gì?**
+**4.2. Với 3 ví dụ trả lời sai, bạn sẽ phân tích lỗi theo 3 góc nào?**
 
 **Câu trả lời:**
 > Trả lời tại đây
 
-### 🔹 Câu 5: PHỐI HỢP VÀ TỰ HỌC
-> Mục tiêu: xem khả năng làm việc trong team và tốc độ bắt nhịp, không chấm theo kiểu đúng/sai tuyệt đối.
-
-**5.1. Nếu làm chung với `DE`, `AI`, hoặc `RAG engineer`, bạn muốn học từ ai trước? Vì sao?**
+**4.3. Nếu chỉ được cải thiện 1 thứ trong tuần đầu, bạn sẽ ưu tiên dữ liệu, prompt, hay đánh giá? Vì sao?**
 
 **Câu trả lời:**
 > Trả lời tại đây
 
-**5.2. Khi gặp phần không biết làm, bạn thường xử lý thế nào?**
+### 🔹 Câu 5: RAG CASE
+> Mục tiêu: xem tư duy truy xuất tài liệu, chia đoạn, tìm đúng ngữ cảnh và kiểm tra câu trả lời có bám nguồn hay không.
+
+Bạn được giao:
+- 1 tập tài liệu ngắn rời rạc.
+- 10 câu hỏi nội bộ.
+- Yêu cầu demo phải trả lời có dẫn nguồn.
+
+**5.1. Bạn sẽ chia tài liệu và chuẩn bị chỉ mục theo cách nào để dễ truy xuất nhất?**
 
 **Câu trả lời:**
 > Trả lời tại đây
 
-**5.3. Bạn muốn được giao loại việc nào nhất trong 1 tháng đầu để chứng minh năng lực?**
+**5.2. Nếu câu trả lời gần đúng nhưng dẫn nhầm đoạn, bạn sẽ kiểm tra lỗi ở bước nào trước?**
 
 **Câu trả lời:**
 > Trả lời tại đây
 
+**5.3. Nếu phải chọn giữa trả lời ngắn nhưng chắc, hoặc trả lời dài nhưng có nguy cơ lạc nguồn, bạn sẽ ưu tiên gì trong bản demo đầu tiên?**
 
+**Câu trả lời:**
+> Trả lời tại đây
 
+**5.4. Nếu nguồn dữ liệu có cả ảnh chụp màn hình và văn bản, bạn sẽ gán nhãn ảnh theo tiêu chí nào để phục vụ RAG? Nêu tối thiểu 3 nhãn và mô tả ngắn cho mỗi nhãn.**
 
+**Câu trả lời:**
+> Trả lời tại đây
