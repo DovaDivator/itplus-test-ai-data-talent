@@ -9,6 +9,7 @@
 - Cho phép dùng AI nhưng phải giải thích được lý do dùng. **NGHIÊM CẤM** cho AI generate câu trả lời từ đầu đến cuối.
 - Yêu cầu trung thực. Câu nào không làm được ghi rõ là không biết làm.
 - Hoàn thiện báo cáo ở [REPORT.md](/REPORT.md)
+- Nộp file dưới dạng link git hoặc đóng zip gửi vào Zalo
 
 ## 2. Câu hỏi thực hành
 
